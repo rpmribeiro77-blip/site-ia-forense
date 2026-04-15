@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://rpmribeiro77-blip.github.io",
+  base: "/site-ia-forense",
 });
