@@ -17,15 +17,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <div class="feature-grid">
           <article class="card feature-card">
             <span class="tag">Destaque</span>
-            <h3>Vocabulário</h3>
-            <p class="meta">Termos tecnológicos aplicados à prática forense.</p>
-            <a href="https://rpmribeiro77-blip.github.io/ia-forense/vocabulario/">Abrir</a>
-          </article>
-          <article class="card feature-card">
-            <span class="tag">Destaque</span>
             <h3>Como usar este site</h3>
             <p class="meta">Guia rápido para navegação e melhor aproveitamento.</p>
             <a href="https://rpmribeiro77-blip.github.io/ia-forense/sobre/">Abrir</a>
+          </article>
+          <article class="card feature-card">
+            <span class="tag">Destaque</span>
+            <h3>Vocabulário tecnológico</h3>
+            <p class="meta">Termos tecnológicos aplicados à prática forense.</p>
+            <a href="https://rpmribeiro77-blip.github.io/ia-forense/vocabulario/">Abrir</a>
           </article>
           <article class="card feature-card">
             <span class="tag">Destaque</span>
@@ -123,13 +123,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   }
   .feature-card {
     padding: 0.95rem;
-    border-color: #8fb4dd;
-    background: linear-gradient(165deg, #f8fbff, #deebfb);
-    box-shadow: 0 12px 24px #5f85b428;
+    border-color: #79a8da;
+    background: linear-gradient(165deg, #f9fcff, #d4e5fa);
+    box-shadow: 0 14px 26px #4f77a932;
   }
   .feature-card h3 {
     margin-top: 0.3rem;
     font-size: 1.14rem;
+  }
+  .feature-card .tag {
+    background: #d9ebff;
+    border-color: #93bbe8;
+    color: #0a4b9b;
   }
   .feature-card a {
     display: inline-block;
