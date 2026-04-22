@@ -1,0 +1,105 @@
+Vocabulário IA
+Bloco 1 — Fundamentos, limites e controle do uso de IA na escrita jurídica
+Alucinação
+Conceito: geração de informação falsa, imprecisa, inventada ou indevidamente combinada pela ferramenta, muitas vezes com aparência de segurança e coerência.
+Utilidade: o termo é importante porque nomeia um dos principais riscos do uso de IA. Ele ajuda o usuário a compreender que boa redação não é prova de correção.
+Importância para o advogado: na prática forense, o problema não está apenas em errar, mas em errar de forma verossímil. A ferramenta pode atribuir a um tribunal fundamento que ele não adotou, resumir mal uma decisão, citar precedente inexistente ou misturar trechos de julgados distintos como se formassem um único entendimento.
+Exemplo prático: ao pedir precedentes sobre determinado tema processual, a ferramenta pode trazer julgados úteis, mas também pode inventar números de processos, atribuir ementas erradas ou sintetizar teses de forma inexata.
+Erro comum: achar que alucinação só existe quando o erro é grotesco. Em muitos casos, ela aparece em textos tecnicamente plausíveis e formalmente bem escritos.
+Consistência de resposta
+Conceito: grau de estabilidade com que a ferramenta responde a uma mesma tarefa ou a tarefas semelhantes, mantendo coerência de estrutura, critério e conteúdo.
+Utilidade: ajuda a avaliar se o sistema está entregando respostas relativamente uniformes ou se oscila em excesso entre uma interação e outra.
+Importância para o advogado: em fluxos de revisão, síntese ou organização documental, a consistência importa porque o profissional precisa comparar saídas, replicar métodos e confiar minimamente que tarefas parecidas serão tratadas com padrão semelhante.
+Exemplo prático: se a ferramenta é usada para resumir decisões em série, convém que ela mantenha, tanto quanto possível, a mesma ordem de análise: pedido, fundamento, consequência processual e ponto de atenção.
+Contexto
+Conceito: conjunto de informações que acompanha o pedido e situa a tarefa a ser executada. Pode incluir o tipo de documento, o objetivo do trabalho, a fase processual, o público da resposta, o histórico da conversa e o material submetido à análise.
+Utilidade: reduz ambiguidades e aumenta a aderência da resposta ao problema concreto.
+Importância para o advogado: a mesma operação verbal pode ter sentidos muito distintos no trabalho jurídico. “Resumir uma decisão”, por exemplo, pode significar uma síntese para estudo, uma nota interna, uma base para recurso ou um quadro de providências. O contexto é o que impede esse deslocamento.
+Exemplo prático: é diferente pedir “resuma esta decisão” e pedir “resuma esta decisão interlocutória para uso interno, destacando pedido apreciado, fundamento central, prazo decorrente e possíveis pontos de impugnação”.
+Confiabilidade
+Conceito: medida de confiança que se pode atribuir à resposta gerada, considerada a natureza da tarefa, o tipo de informação envolvida e o grau de verificação exigido.
+Utilidade: permite distinguir entre aquilo que pode servir como ponto de partida e aquilo que só pode ser usado após conferência rigorosa.
+Importância para o advogado: nem toda resposta correta em aparência é confiável para uso profissional. Em matéria jurídica, a confiabilidade depende não apenas da fluidez do texto, mas da fidelidade ao documento, da precisão da referência, da aderência ao caso e da possibilidade de verificação.
+Exemplo prático: um texto pode ser útil para reorganizar a redação de uma minuta e, ao mesmo tempo, inadequado para servir de fonte autônoma sobre jurisprudência sem conferência posterior.
+Guardrails
+Conceito: limites, restrições ou regras de controle impostas à atuação da ferramenta para reduzir desvios, respostas inadequadas ou saídas fora do escopo desejado.
+Utilidade: servem para manter a ferramenta dentro de parâmetros previamente definidos.
+Importância para o advogado: em uso jurídico, os guardrails são úteis para impedir, por exemplo, que a ferramenta invente referências, altere a tese principal da minuta, utilize tom inadequado, produza conteúdo opinativo indevido ou ultrapasse a função de simples revisão formal.
+Exemplo prático: ao configurar um fluxo de revisão, pode-se estabelecer que a ferramenta não reformule fundamentos jurídicos, não acrescente precedentes não fornecidos e apenas aponte problemas de clareza, repetição ou organização.
+Histórico de interação
+Conceito: sequência de mensagens, instruções e respostas trocadas ao longo de uma mesma conversa ou sessão de trabalho.
+Utilidade: permite continuidade. É a partir desse histórico que a ferramenta tenta compreender o encadeamento da tarefa e manter certa coerência com o que já foi pedido.
+Importância para o advogado: em atividades que se desenvolvem por etapas, o histórico ajuda bastante. Por outro lado, histórico longo demais, confuso ou mal conduzido pode prejudicar o desempenho da ferramenta, fazendo com que ela perca foco ou misture instruções antigas com novas.
+Exemplo prático: em vez de discutir revisão, comparação de versões, estratégia recursal e extração de teses no mesmo fio indefinidamente, muitas vezes é preferível separar as tarefas por conversa ou por fase de trabalho.
+Instrução de sistema
+Conceito: orientação estrutural que define o modo geral de atuação da ferramenta, acima dos pedidos pontuais do usuário.
+Utilidade: serve para fixar parâmetros permanentes de comportamento, tom, limites e prioridades.
+Importância para o advogado: esse conceito ajuda a entender por que determinadas ferramentas podem ser configuradas para sempre responder em linguagem formal, evitar inferências sem base documental, apontar incertezas ou seguir estrutura analítica específica. Em ambientes mais organizados, isso permite padronização útil.
+Exemplo prático: um sistema pode ser configurado para atuar sempre como revisor técnico de minutas, sem criar fatos, sem citar jurisprudência não fornecida e sem alterar a linha argumentativa central.
+Janela de contexto
+Conceito: espaço total de texto que a ferramenta consegue considerar ao formular a resposta. Abrange, em regra, as instruções recebidas, o material fornecido e parte do histórico da interação.
+Utilidade: ajuda a entender até que ponto a ferramenta consegue realmente levar em conta o que foi submetido à análise.
+Importância para o advogado: isso faz diferença em trabalhos com autos extensos, sucessivas versões de minutas, documentos longos ou tarefas com muitas instruções simultâneas. Quando esse limite é pressionado, a ferramenta tende a resumir demais, ignorar partes do material ou responder de forma menos precisa.
+Exemplo prático: na revisão de peça longa, costuma ser mais eficiente trabalhar por trechos ou por objetivos separados — clareza, repetições, coerência argumentativa, pedidos — do que concentrar tudo em um único comando.
+Limite de contexto
+Conceito: fronteira prática da quantidade de texto que a ferramenta consegue tratar de uma só vez com algum grau de aproveitamento.
+Utilidade: traduz, de forma mais concreta, o que a janela de contexto representa no uso cotidiano.
+Importância para o advogado: o limite de contexto explica por que não é boa prática despejar petições, decisões, laudos, documentos acessórios e múltiplas instruções em uma única interação, esperando análise exaustiva e precisa de tudo ao mesmo tempo.
+Exemplo prático: em vez de enviar toda a cadeia processual e pedir uma apelação pronta de saída, costuma funcionar melhor dividir o trabalho em etapas: síntese dos autos, identificação de teses, seleção de pontos de impugnação e, só depois, elaboração da minuta.
+Log
+Conceito: registro de eventos, comandos, interações ou etapas de execução de uma ferramenta ou fluxo.
+Utilidade: permite acompanhar o que foi feito e, em certos casos, reconstruir o percurso de uso do sistema.
+Importância para o advogado: em ambientes mais estruturados, os logs podem ser úteis para controle de qualidade, auditoria interna, revisão de etapas e compreensão de como determinada saída foi produzida.
+Exemplo prático: num fluxo automatizado de triagem documental, o log pode mostrar quando o arquivo foi processado, que tarefa foi executada, se houve falha de leitura e em que ponto a operação precisou de intervenção humana.
+Memória
+Conceito: capacidade de a ferramenta conservar certas informações ao longo do uso, como preferências de estilo, padrões de resposta ou elementos anteriormente fornecidos, conforme o ambiente em que estiver sendo utilizada.
+Utilidade: favorece continuidade e consistência, evitando repetição desnecessária de orientações.
+Importância para o advogado: a memória pode ser útil quando há preferências estáveis de trabalho, como linguagem formal, resposta em tópicos, preservação da tese central ou separação entre revisão formal e revisão de conteúdo. Ainda assim, não convém depender dela de forma cega, sobretudo em tarefas sensíveis ou muito específicas.
+Exemplo prático: se o advogado costuma pedir revisão formal sem alteração da linha argumentativa, a memória pode ajudar a manter esse padrão. Em casos delicados, porém, continua sendo prudente repetir expressamente a orientação.
+Precisão da resposta
+Conceito: grau de exatidão com que a resposta corresponde ao conteúdo real dos documentos, das instruções recebidas e do problema formulado.
+Utilidade: serve para avaliar se a saída está correta de modo pontual, e não apenas bem redigida.
+Importância para o advogado: em trabalho jurídico, precisão importa mais do que eloquência. Uma resposta elegante, mas imprecisa, pode ser menos útil do que uma resposta mais simples e rigorosa. Isso vale especialmente para síntese de decisões, identificação de pedidos, leitura de documentos e organização de fundamentos.
+Exemplo prático: ao resumir uma decisão, a ferramenta precisa distinguir com precisão o que foi pedido, o que foi efetivamente decidido e quais foram os fundamentos adotados. Pequeno deslocamento nesses pontos já compromete o uso prático do resumo.
+Prompt
+Conceito: texto de entrada pelo qual o usuário orienta a ferramenta. Pode consistir em pergunta, comando, instrução de revisão, pedido de comparação, solicitação de resumo ou combinação de tarefas.
+Utilidade: define a tarefa a ser executada e influencia diretamente a qualidade da resposta.
+Importância para o advogado: o proveito da IA, na prática forense, depende muito menos de fórmulas mágicas e muito mais da qualidade da instrução. Pedido vago tende a produzir resposta vaga; pedido bem delimitado costuma gerar resultado mais aproveitável.
+Exemplo prático: em vez de pedir apenas “melhore este texto”, é mais útil indicar: “revise esta minuta de contestação, preserve a tese principal, elimine repetições e aponte passagens com baixa clareza”.
+Erro comum: imaginar que prompt bom é prompt necessariamente longo. O que normalmente importa é a boa delimitação da tarefa.
+Prompt chaining
+Conceito: técnica de dividir uma tarefa mais complexa em uma sequência de prompts menores, encadeados entre si.
+Utilidade: melhora controle, clareza e aproveitamento da ferramenta em trabalhos mais longos ou mais delicados.
+Importância para o advogado: muitas tarefas jurídicas não ficam boas quando pedidas de uma só vez. Separar etapas costuma gerar resultado superior. Primeiro se resume o material; depois se extraem teses; em seguida se classificam pontos fortes e fracos; só então se parte para minuta, quadro comparativo ou estratégia de revisão.
+Exemplo prático: em vez de enviar os autos e pedir “faça uma apelação completa”, pode ser melhor seguir esta cadeia: síntese do caso, identificação dos fundamentos da sentença, seleção dos pontos recorríveis e elaboração progressiva da minuta.
+Rastreabilidade
+Conceito: possibilidade de reconstruir o percurso de elaboração, revisão e alteração de um texto, documento ou fluxo de trabalho.
+Utilidade: permite saber o que foi modificado, em que momento e, em certos contextos, com base em qual versão ou etapa.
+Importância para o advogado: em minutas que passam por várias revisões, pessoas ou ferramentas, a rastreabilidade ajuda a evitar perda de fundamento, uso de versão errada, supressão indevida de tese ou alteração sem controle suficiente.
+Exemplo prático: numa petição que foi revisada internamente e depois ajustada com auxílio de IA, é importante conseguir identificar o que mudou apenas de forma, o que mudou de conteúdo e em que ponto houve intervenção mais sensível.
+Refinamento iterativo
+Conceito: processo de melhoria progressiva da resposta por meio de novos pedidos, ajustes, esclarecimentos e correções sucessivas.
+Utilidade: permite sair de uma formulação inicial imperfeita para um resultado mais ajustado ao objetivo real.
+Importância para o advogado: no uso profissional da IA, a primeira resposta nem sempre é a melhor. Muitas vezes ela serve como ponto de partida. O trabalho melhora quando o usuário revê o resultado, corrige o rumo, delimita melhor a tarefa e pede ajustes pontuais.
+Exemplo prático: o advogado pode primeiro pedir uma síntese da minuta, depois solicitar eliminação de repetições, em seguida exigir maior rigor terminológico e, por fim, pedir reorganização dos parágrafos mais frágeis.
+Saída estruturada
+Conceito: resposta organizada em formato previamente definido, com campos, seções ou categorias determinadas.
+Utilidade: facilita leitura, reaproveitamento e comparação de resultados.
+Importância para o advogado: saídas estruturadas são particularmente úteis em tarefas repetitivas, como análise de decisões, triagem de documentos, quadros comparativos, identificação de teses, prazos, pedidos e providências processuais. Quando a informação sai sempre em formato semelhante, fica mais fácil revisar, conferir e reutilizar.
+Exemplo prático: em vez de pedir um resumo livre, o advogado pode exigir que a resposta venha nos campos “pedido”, “fundamento central”, “consequência processual”, “prazo” e “ponto de atenção”.
+Supervisão humana
+Conceito: acompanhamento humano do uso da ferramenta ao longo do processo, e não apenas no momento final da conferência do texto.
+Utilidade: serve para manter controle contínuo sobre a tarefa, seus limites e seus riscos.
+Importância para o advogado: a supervisão humana é mais ampla que a simples validação final. Ela envolve decidir o que pode ou não ser delegado à ferramenta, em que etapa ela entra, que tipo de resposta se admite, quando é preciso interromper o fluxo e quando o caso exige análise integralmente humana.
+Exemplo prático: ao usar IA para comparar versões de uma petição, o advogado pode supervisionar o processo desde o início, delimitando que a ferramenta apenas destaque alterações e não proponha modificação de fundamentos.
+Token
+Conceito: unidade interna de processamento textual utilizada pelo sistema. Não corresponde exatamente a palavra, página ou caractere, embora funcione, na prática, como medida do volume de texto tratado pela ferramenta.
+Utilidade: ajuda a compreender limitações operacionais ligadas à entrada e à saída de texto.
+Importância para o advogado: em tarefas com grande massa documental, o limite de processamento interfere no resultado. O advogado não precisa conhecer a mecânica técnica do token, mas deve entender que existe uma restrição material para o volume de texto que pode ser trabalhado de uma só vez com qualidade.
+Exemplo prático: se forem enviados, em uma única interação, várias peças, decisões e documentos, com pedido simultâneo de resumo, comparação, extração de teses e redação de minuta, é comum que o resultado venha superficial ou confuso.
+Validação humana
+Conceito: conferência do resultado por uma pessoa responsável antes de seu uso efetivo.
+Utilidade: impede que a resposta da ferramenta seja tratada como produto final automático.
+Importância para o advogado: em trabalho jurídico, a IA pode apoiar bastante a produção e a revisão, mas não substitui a responsabilidade profissional de quem assina, revisa ou utiliza o conteúdo. Validar significa conferir correção, aderência ao caso, precisão terminológica, fidelidade ao documento e utilidade estratégica.
+Exemplo prático: a ferramenta pode sugerir melhorias de clareza em uma contestação. Ainda assim, cabe ao advogado verificar se as mudanças preservam a tese, não alteram o sentido de passagens relevantes e não criam impropriedades técnicas.
+Erro comum: tratar validação humana como leitura apressada. Validar, nesse contexto, é revisar de fato.
