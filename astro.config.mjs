@@ -1,6 +1,3 @@
 import { defineConfig } from "astro/config";
 
-export default defineConfig({
-  site: "https://rpmribeiro77-blip.github.io",
-  base: "/ia-forense",
-});
+export default defineConfig({});
